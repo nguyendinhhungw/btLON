@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background: #6e7274 url(black-steel-background-3000x2000.jpg);
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+}
+
+header {
+    background-color: #3183e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left img {
+    margin-right: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav2 a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav2 a:hover {
+    color: #ff5c5c;
+}
+
+.send-article {
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.send-article:hover {
+    background-color: #ff5c5c;
+    color: #fff;
+}
+
+.hd_timkiem{
+    margin: 10px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.cl221111{
+    width: 50%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.cl221111 span{
+    position: absolute;
+    left: 15px;
+    font-size: 20px;
+    top: 25%;
+}
+
+#cl221111_timkiem{
+    width: 97%;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 50px;
+    border-radius: 15px;
+    background-color: gainsboro;
+    border: gainsboro solid 1px;
+}
+
+
+
+.container {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container0{
+    width: 70vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: white;
+    margin-bottom: 20px;
+}
+.register-container {
+    width: 100%;
+    max-width: 500px;
+}
+
+.register-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.upload-btn {
+    display: block;
+    background-color: transparent;
+    border: 1px solid #e74c3c;
+    color: #e74c3c;
+    padding: 10px 20px;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.upload-info {
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.password-tip {
+    font-size: 12px;
+    color: #e74c3c;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+
+
+.register-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
